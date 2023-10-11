@@ -15,13 +15,17 @@ const HeaderBottom = () => {
   const ref = useRef();
   const refCurrent = ref.current;
   useEffect(() => {
-    document.body.addEventListener("click", (e) => {
-      if (refCurrent && ref.current.contains(e.target)) {
+    const handleBodyClick = (e) => {
+      if (ref.current && ref.current.contains(e.target)) {
         setShow(true);
       } else {
         setShow(false);
       }
-    });
+    };
+    document.body.addEventListener("click", handleBodyClick);
+    return () => {
+      document.body.removeEventListener("click", handleBodyClick);
+    };
   }, [show]);
 
   const [searchQuery, setSearchQuery] = useState("");
