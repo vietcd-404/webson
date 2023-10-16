@@ -17,27 +17,27 @@ import {
 export const navBarList = [
   {
     _id: 1001,
-    title: "Home",
+    title: "Trang chủ",
     link: "/",
   },
   {
     _id: 1002,
-    title: "Shop",
+    title: "Của hàng",
     link: "/shop",
   },
   {
     _id: 1003,
-    title: "About",
+    title: "Giới thiệu",
     link: "/about",
   },
   {
     _id: 1004,
-    title: "Contact",
+    title: "Liên hệ",
     link: "contact",
   },
   {
     _id: 1005,
-    title: "Journal",
+    title: "Tạp chí",
     link: "/journal",
   },
 ];

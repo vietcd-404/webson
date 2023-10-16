@@ -3,6 +3,12 @@ import logoLight from "./logoLight.png";
 import bannerImgOne from "./banner/bannerImgOne.webp";
 import bannerImgTwo from "./banner/bannerImgTwo.webp";
 import bannerImgThree from "./banner/bannerImgThree.webp";
+import banner1 from "./banner/banner1.jpg";
+import banner2 from "./banner/banner2.png";
+import banner3 from "./banner/banner3.jpg";
+import a1 from "./sale/a1.webp";
+import a2 from "./sale/a2.webp";
+import a3 from "./sale/a3.webp";
 import saleImgOne from "./sale/saleImgOne.webp";
 import saleImgTwo from "./sale/saleImgTwo.webp";
 import saleImgThree from "./sale/saleImgThree.webp";
@@ -32,7 +38,13 @@ import paymentCard from "./payment.png";
 import emptyCart from "../images/emptyCart.png";
 
 export {
+  banner1,
+  banner2,
+  banner3,
   logo,
+  a1,
+  a2,
+  a3,
   logoLight,
   bannerImgOne,
   bannerImgTwo,

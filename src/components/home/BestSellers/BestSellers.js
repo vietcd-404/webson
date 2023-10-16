@@ -6,6 +6,9 @@ import {
   bestSellerTwo,
   bestSellerThree,
   bestSellerFour,
+  a1,
+  a2,
+  a3,
 } from "../../../assets/images/index";
 
 const BestSellers = () => {
@@ -15,7 +18,7 @@ const BestSellers = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 xl:grid-cols-4 gap-10">
         <Product
           _id="1011"
-          img={bestSellerOne}
+          img={a1}
           productName="Flower Base"
           price="35.00"
           color="Blank and White"
@@ -24,7 +27,7 @@ const BestSellers = () => {
         />
         <Product
           _id="1012"
-          img={bestSellerTwo}
+          img={a2}
           productName="New Backpack"
           price="180.00"
           color="Gray"
@@ -33,7 +36,7 @@ const BestSellers = () => {
         />
         <Product
           _id="1013"
-          img={bestSellerThree}
+          img={a3}
           productName="Household materials"
           price="25.00"
           color="Mixed"
