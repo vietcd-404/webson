@@ -22,7 +22,7 @@ export const navBarList = [
   },
   {
     _id: 1002,
-    title: "Của hàng",
+    title: "Cửa hàng",
     link: "/shop",
   },
   {
@@ -33,12 +33,12 @@ export const navBarList = [
   {
     _id: 1004,
     title: "Liên hệ",
-    link: "contact",
+    link: "/contact",
   },
   {
     _id: 1005,
-    title: "Tạp chí",
-    link: "/journal",
+    title: "Bảng tin",
+    link: "/new",
   },
 ];
 // =================== NavBarList End here ======================
